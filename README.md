@@ -34,13 +34,13 @@ Replace `your-bucket-name` with your actual bucket name.
 
 1. Clone the repository.
 2. Place your static website files (at least `index.html`) in the `website` directory under `src/main/resources/`.
-3. Update the `BUCKETNAME` constant in `S3StaticWebsite.java` with your desired S3 bucket name.
+3. Update the `BUCKETNAME` constant in `com.abednego.S3StaticWebsite.java` with your desired S3 bucket name.
 
 ## Build and Run
 
 ```sh
 mvn clean package
-java -cp target/your-jar-file.jar S3StaticWebsite
+java -cp target/your-jar-file.jar com.abednego.S3StaticWebsite
 ```
 
 ## Notes
