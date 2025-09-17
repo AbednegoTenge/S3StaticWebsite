@@ -49,5 +49,10 @@ java -cp target/your-jar-file.jar S3StaticWebsite
 - Make sure your AWS credentials have permissions to create buckets, upload objects, and set bucket policies.
 - You must disable "Block Public Access" for the bucket as described above for the website to be publicly accessible.
 
+## Live Demo
+
+Access the static website here:  
+https://abednegotenge.s3.us-east-1.amazonaws.com/index.html
+
 ## License
 MIT License
